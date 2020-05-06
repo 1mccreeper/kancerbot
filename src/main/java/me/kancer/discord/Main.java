@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-    public static String token = "NjY3ODY0NTM5MjgyMjc2MzUz.XiOauw.O_TnE8NSyYg_GlZfVWd292OHBWo";
+    public static String token = "NjY3ODY0NTM5MjgyMjc2MzUz.XnlA5w.azQ0uzqdHwUPba80evVrRMMTGgE";
 
     private Main() throws LoginException {
         final JDA jda = new JDABuilder(AccountType.BOT)
@@ -46,12 +46,14 @@ public class Main {
         client.addCommand(new Nightmare());
         client.addCommand(new Help());
         client.addCommand(new Crackhead());
+        client.addCommand(new Clear());
         jda.addEventListener(client);
         jda.addEventListener(new watching());
         jda.addEventListener(new hellothere());
         jda.addEventListener(new kancer());
         jda.addEventListener(new lewd());
         jda.addEventListener(new hello());
+        jda.addEventListener(new Pingevent());
         jda.addEventListener(new nword());
     }
 

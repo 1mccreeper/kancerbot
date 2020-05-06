@@ -16,7 +16,7 @@ public class Info extends Command {
         if(args[0].equalsIgnoreCase("~info")) {
             if(!event.getMember().getUser().isBot()) {
                 EmbedBuilder info = new EmbedBuilder();
-                info.setTitle("PureKancer Bot Information");
+                info.setTitle("Kancer DnD Bot Information");
                 info.setDescription("Completely useless information about a useless bot.");
                 info.addField("Creator","PureKancer", false);
                 info.setColor(0x990000);
