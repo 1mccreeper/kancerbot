@@ -84,7 +84,6 @@ public class Main extends ListenerAdapter {
              */
         } else if ("~skip".equals(command[0])) {
             skipTrack(event.getChannel());
-
             /**
              * Bot joins User's voice channel if possible
              */
