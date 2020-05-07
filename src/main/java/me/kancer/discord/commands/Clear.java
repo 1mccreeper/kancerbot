@@ -36,5 +36,5 @@ public class Clear extends Command {
                 event.getChannel().purgeMessages(messages);
             }
         }
-        }
+    }
 }
