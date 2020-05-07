@@ -39,7 +39,7 @@ public class Main extends ListenerAdapter {
         builder.setActivity(Activity.watching("The USSR's Decline"));
     }
 
-    public static String token = "NjY3ODY0NTM5MjgyMjc2MzUz.XnlA5w.azQ0uzqdHwUPba80evVrRMMTGgE";
+    public static String token = "token Here";
 
     private final AudioPlayerManager playerManager;
     private final Map<Long, GuildMusicManager> musicManagers;
