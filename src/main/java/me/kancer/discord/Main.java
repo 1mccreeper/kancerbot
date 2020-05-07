@@ -9,7 +9,6 @@ import com.sedmelluq.discord.lavaplayer.source.AudioSourceManagers;
 import com.sedmelluq.discord.lavaplayer.tools.FriendlyException;
 import com.sedmelluq.discord.lavaplayer.track.AudioPlaylist;
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
-import me.kancer.discord.commands.*;
 import net.dv8tion.jda.api.AccountType;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDABuilder;
@@ -37,17 +36,7 @@ public class Main extends ListenerAdapter {
 
         builder.setPrefix("~");
         builder.setOwnerId("189548680146190336");
-        builder.setActivity(Activity.watching("You"));
-        builder.setHelpWord("helpme");
-
-
-        CommandClient client = builder.build();
-        client.addCommand(new Ping());
-        client.addCommand(new OwnerAt());
-        client.addCommand(new Info());
-        client.addCommand(new Roll());
-        client.addCommand(new Help());
-        client.addCommand(new Clear());
+        builder.setActivity(Activity.watching("The USSR's Decline"));
     }
 
     public static String token = "NjY3ODY0NTM5MjgyMjc2MzUz.XnlA5w.azQ0uzqdHwUPba80evVrRMMTGgE";
